@@ -22,6 +22,8 @@
 body {
     font-family: 'Rubik', sans-serif;
     position: relative;
+    background-color: #81D4FA;
+
 }
 
 a {
@@ -68,7 +70,7 @@ h5 {
 }
 
 p {
-    color: #959094;
+    color: #f0f0f0;
 }
 
 p.lead {
@@ -153,6 +155,9 @@ p.lead {
 .section-title small {
     color: #998a9b;
 }
+.bg{
+    /*background-color: #4FC3F7;*/
+}
 
 @media (max-width:767px) {
     h1 {
@@ -163,10 +168,16 @@ p.lead {
     }
 }
 
+.img-logo{
+    height: auto;
+    max-width: 90vw;
+    min-width: 300px;
+    width: 30vw;
+}
 
 /* NAVBAR
 ----------------------*/
-
+/*
 .nav-menu {
     padding: 1rem 0;
     transition: all 0.3s ease;
@@ -216,18 +227,22 @@ p.lead {
         text-align: center;
     }
 }
-
+*/
 
 /* HERO
 ----------------------*/
 
 header {
-    padding: 100px 0 0;
+    padding: 50px 0 0;
     text-align: center;
     color: #FFF;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .bg-gradient {
+    height: 100vh;
+    overflow: hidden;
     background-image: -moz-linear-gradient( 135deg, rgba(76, 175, 80, 0.8) 0%, rgba(3, 169, 244, 0.8) 100%);
     background-image: -webkit-linear-gradient( 135deg, rgba(76, 175, 80, 0.8) 0%, rgba(3, 169, 244, 0.8) 100%);
     background-image: -ms-linear-gradient( 135deg, rgba(76, 175, 80, 0.8) 0%, rgba(3, 169, 244, 0.8) 100%);
@@ -244,13 +259,13 @@ header {
 
 .img-holder {
     height: 0;
-    padding-bottom: 33%;
-    overflow: hidden;
+    /*padding-bottom: 100%;*/
+    /*overflow: hidden;*/
 }
 
 @media (max-width:1200px) {
     .img-holder {
-        padding-bottom: 50%;
+        /*padding-bottom: 100%;*/
     }
 }
 
@@ -259,14 +274,14 @@ header {
         font-size: 17px;
     }
     .img-holder {
-        padding-bottom: 100%;
+        /*padding-bottom: 100%;*/
     }
 }
 
 
 /* FEATURES
 ----------------------*/
-
+/*
 .gradient-fill:before {
     color: #03a9f4;
     background: -moz-linear-gradient(top, #4CAF50 0%, #03a9f4 100%);
@@ -321,7 +336,7 @@ header {
     box-shadow: 0px 0px 43px 0px rgba(0, 0, 0, 0.14);
     padding: 10px;
     width: 70px;
-    border-radius: 50%;50%
+    border-radius: 50%;
     margin-bottom: 1.5rem;
     background-color: #FFF;
 }
@@ -378,11 +393,11 @@ header {
         margin-top: -150px;
     }
 }
-
+*/
 
 /*  TABS
 ----------------------*/
-
+/*
 .tab-content {
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
@@ -425,11 +440,11 @@ header {
     border-color: #039BE5 #039BE5 #FFF;
     color: #01579B;
 }
-
+*/
 
 /*  TESTIMONIALS
 ----------------------*/
-
+/*
 .owl-carousel .owl-item img.client-img {
     width: 110px;
     margin: 30px auto;
@@ -487,7 +502,7 @@ header {
     background: #03A9F4;
     box-shadow: 0px 9px 32px 0px rgba(0, 0, 0, 0.07);
 }
-
+*/
 
 /*  IMAGE GALLERY
 ----------------------*/
@@ -505,7 +520,7 @@ header {
 
 /*  PRICING
 ----------------------*/
-
+/*
 @media (max-width:992px) {
     .card-deck {
         -ms-flex-direction: column;
@@ -558,7 +573,7 @@ header {
 .card.pricing .card-body {
     padding: 1.75rem;
 }
-
+*/
 
 /*  CALL TO ACTION
 ----------------------*/
@@ -597,7 +612,7 @@ header {
 
 /*  FOOTER
 ----------------------*/
-
+/*
 .social-icons {
     text-align: right;
 }
@@ -626,4 +641,50 @@ header {
         text-align: center;
         margin-top: 2rem;
     }
+}
+*/
+
+
+
+
+/*----------- SIGNUP
+*/
+
+.signup {
+    margin: 0 10vw 15vh auto;
+    width: 70%;
+    padding: 30px 20px;
+    background-color: white;
+    text-align: center;
+    border-radius: 5px ;
+}
+
+[type=text] {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,.2);
+  height: 45px;
+  line-height: 45px;  
+  margin-bottom: 10px;
+  font-size: 1em;
+  color: rgba(0,0,0,.4);
+}
+
+[type=submit] {
+  margin-top: 25px;
+  width: 80%;
+  border: 0;
+  background-color: #53CACE;
+  border-radius: 5px;
+  height: 50px;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+[type='text']:focus {
+  outline: none;
+  border-color: #53CACE;
 }
