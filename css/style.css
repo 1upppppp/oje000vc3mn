@@ -659,7 +659,7 @@ header {
     border-radius: 5px ;
 }
 
-[type=text] {
+[type=text],[type=email], [type=tel] {
   display: block;
   margin: 0 auto;
   width: 80%;
@@ -688,3 +688,13 @@ header {
   outline: none;
   border-color: #53CACE;
 }
+
+
+
+
+
+
+.mauticform-errormsg{
+    color: #333;
+}
+
