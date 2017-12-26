@@ -170,9 +170,10 @@ p.lead {
 
 .img-logo{
     height: auto;
+    width: 50vw;
     max-width: 90vw;
     min-width: 300px;
-    width: 30vw;
+    
 }
 
 /* NAVBAR
@@ -233,10 +234,11 @@ p.lead {
 ----------------------*/
 
 header {
-    padding: 50px 0 0;
+    padding: 30px 0 0;
     text-align: center;
     color: #FFF;
     height: 100vh;
+    min-height: 900px;
     overflow: hidden;
 }
 
@@ -651,7 +653,7 @@ header {
 */
 
 .signup {
-    margin: 0 10vw 15vh auto;
+    margin: auto;
     width: 70%;
     padding: 30px 20px;
     background-color: white;
