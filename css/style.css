@@ -279,7 +279,12 @@ header {
         /*padding-bottom: 100%;*/
     }
 }
-
+@media (max-width:599px){
+    header {
+        height: 150vh;
+        min-height: 900px;
+    }
+}
 
 /* FEATURES
 ----------------------*/
